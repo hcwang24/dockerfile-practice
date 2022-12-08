@@ -3,4 +3,4 @@
 
 FROM jupyter/scipy-notebook
 
-RUN pip install docopt-ng==0.6.* -y
+RUN pip install --yes docopt-ng==0.6.*
